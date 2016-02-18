@@ -1,0 +1,6 @@
+<svg>
+  <clipPath id="clipPolygon">
+    <polygon points="50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%">
+    </polygon>
+  </clipPath>
+</svg>
