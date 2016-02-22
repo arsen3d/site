@@ -25,7 +25,7 @@ svg4everybody.js
 //
 -->
 <script>
-if (!_dntEnabled()) {
+new CookiesEuBanner(function(){
     (function(window) {
 
         // Google Analytics async snippet
@@ -62,7 +62,7 @@ if (!_dntEnabled()) {
         };
 
     }(window));
-}
+});
 </script>
 
 {% if jekyll.environment == "production" %}
