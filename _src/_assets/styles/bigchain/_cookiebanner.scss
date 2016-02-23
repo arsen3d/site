@@ -7,4 +7,14 @@
     right: 0;
     width: 100%;
     z-index: 1001;
+
+    background: rgba($gray-dark, .9);
+    border-top: 1px solid $gray-darker;
+    padding: ($spacer / 2) 0;
+
+    .btn {
+        &:first-of-type {
+           margin-left: $spacer
+       }
+    }
 }
