@@ -13,23 +13,23 @@
 
 .team__name {
     @extend .h5;
-    color: $text-color;
+    color: $brand-main-blue-light;
     margin-bottom: 0;
-
-    // the bottom line
-    &:after {
-        content: '';
-        height: 1px;
-        width: 3rem;
-        display: block;
-        margin: ($spacer / 1.3) auto ($spacer / 2) auto;
-        background: $brand-main-blue-light;
-    }
 }
 
 .team__position {
     @extend .text-dimmed;
     margin-bottom: ($spacer / 2);
+
+    // the bottom line
+    &:after {
+        content: '';
+        height: 2px;
+        width: 3rem;
+        display: block;
+        margin: ($spacer / 1.3) auto;
+        background: $gray-dark;
+    }
 }
 
 .team__social {
@@ -119,12 +119,22 @@
 //
 // Grid redefinition: more spacious
 //
-$spacer-team: 3rem;
+$spacer-team: 4rem;
 
 .grid--team {
     margin: -($spacer-team) 0 $spacer-team (-($spacer-team));
 
     > .grid__col {
         padding: $spacer-team 0 0 $spacer-team;
+    }
+}
+
+.grid--founders {
+    justify-content: space-between;
+}
+
+.section--team {
+    .section-title {
+        margin-bottom: $spacer * 4;
     }
 }
