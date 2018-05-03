@@ -151,3 +151,8 @@ team:
       position: Executive Assistant
       twitter:  ineseschbach
       linkedin: ines-eschbach-4b330130
+      image:    Ines.jpg
+
+    - name:     Lev Berman
+      position: Engineer
+      github:   ldmberman
