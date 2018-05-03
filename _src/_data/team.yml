@@ -139,7 +139,6 @@ team:
 
     - name:     Vanshdeep Singh
       position: Engineer
-      image:    vanshdeep.jpg
       github:   kansi
       linkedin: vanshdeep-singh
 
@@ -147,3 +146,8 @@ team:
       position: Executive Director Special Projects
       image:    chalid.jpg
       linkedin: cmannaa
+
+    - name:     Ines Eschbach
+      position: Executive Assistant
+      twitter:  ineseschbach
+      linkedin: ines-eschbach-4b330130
